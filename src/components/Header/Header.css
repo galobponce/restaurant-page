@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 2em 0 1em 0;
+
+    background-color: rgba(0, 0, 0, .85);
+
+    margin-bottom: 3em;
+
+    border-bottom: 1.5px solid #444;
+}
+
+.title {
+    color: #ffff;
+
+    text-align: center;
+    font-family: fantasy;
+
+    font-size: 3em;
+}
