@@ -1,37 +1,38 @@
 .home {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 
-    width: 60%;
+  width: 60%;
 
-    padding: 1em;
+  padding: 1em;
 
-    color: #fff;
-    background-color: rgba(0, 0, 0, .8);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
 
-    border: 1.5px solid #444;
+  border-radius: 1em;
+  border: 1px solid #444;
 }
 
 @media screen and (max-width: 1200px) {
-    .home {
-        width: 90%;
-    }
+  .home {
+    width: 90%;
+  }
 }
 
 .home--info {
-    text-align: center;
+  text-align: center;
 
-    font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .home--avatar {
-    object-fit: cover;
+  object-fit: cover;
 
-    border-radius: 50%;
+  border-radius: 50%;
 
-    height: 20em;
-    width: 20em;
+  height: 17em;
+  width: 17em;
 }

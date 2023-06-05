@@ -1,21 +1,22 @@
-import avatar from '../../images/ariel.jpg';
+import avatar from "../../images/chef.png"
 
-import './Home.css';
-
+import "./Home.css"
 
 const Home = () => {
-    const home = document.createElement('div');
-    home.classList.add('home');
+  const home = document.createElement("div")
+  home.classList.add("home")
 
-    home.innerHTML = `
-        <span class='home--info'>La parrilla de Ariel de Gran Hermano en Berazategui</span>
+  home.innerHTML = `
+        <span class='home--info'>The best pizza in the city</span>
 
-        <img class='home--avatar' src=${avatar} />
+        <span class='home--info'>Made with passion since 1908</span>
 
-        <span class='home--info'>¡Vení a conocernos!</span>
-    `;
+        <img class='home--avatar' src='${avatar}' />
 
-    return home;
-};
+        <span class='home--info'>Come and visit us!</span>
+    `
 
-export default Home;
+  return home
+}
+
+export default Home

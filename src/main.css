@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Tangerine:700");
 
 /* General */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Montserrat', cursive;
+  font-family: "Montserrat", cursive;
 }
 
 body {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 
-    height: 100vh;
+  height: 100vh;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('./images/parrillada.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/background.jpg");
 }
 
 /* End General */
