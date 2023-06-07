@@ -5,8 +5,8 @@ const Header = () => {
   header.classList.add("header")
 
   header.innerHTML = `
-        <h1 class='title'>Mozzafiato</h1>
-    `
+    <h1 class='title'>Mozzafiato</h1>
+  `
 
   return header
 }
