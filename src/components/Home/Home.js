@@ -5,6 +5,7 @@ import "./Home.css"
 const Home = () => {
   const home = document.createElement("div")
   home.classList.add("home")
+  home.id = "home"
 
   home.innerHTML = `
         <span class='home--info'>The best pizza in the city</span>

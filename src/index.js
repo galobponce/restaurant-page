@@ -1,4 +1,4 @@
-import { Header, Home, Navbar } from "./components"
+import { Header, Navbar, Home } from "./components"
 
 import "./main.css"
 
