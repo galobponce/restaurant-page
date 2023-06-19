@@ -33,7 +33,7 @@ const Navbar = () => {
   const homeItem = document.createElement("div")
   homeItem.id = "H"
   homeItem.innerHTML = "Home"
-  homeItem.classList.add("navbar-item")
+  homeItem.classList.add("navbar-item", "active")
   homeItem.addEventListener("click", (ev) => {
     onClickNavbarItem(ev.target)
   })
