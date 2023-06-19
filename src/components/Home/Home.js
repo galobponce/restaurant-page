@@ -8,13 +8,13 @@ const Home = () => {
   home.id = "home"
 
   home.innerHTML = `
-        <span class='home--info'>The best pizza in the city</span>
+    <span class='home--info'>The best pizza in the city</span>
 
-        <span class='home--info'>Made with passion since 1908</span>
+    <span class='home--info'>Made with passion since 1908</span>
 
-        <img class='home--avatar' src='${avatar}' />
+    <img class='home--avatar' src='${avatar}' />
 
-        <span class='home--info'>Come and visit us!</span>
+    <span class='home--info'>Come and visit us!</span>
     `
 
   return home
