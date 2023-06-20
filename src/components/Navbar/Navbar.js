@@ -8,13 +8,13 @@ const Navbar = () => {
   const changeTab = (tab) => {
     switch (tab) {
       case "H":
-        document.body.appendChild(Home())
+        document.getElementById("content").appendChild(Home())
         break
       case "M":
-        document.body.appendChild(Menu())
+        document.getElementById("content").appendChild(Menu())
         break
       case "C":
-        document.body.appendChild(Contact())
+        document.getElementById("content").appendChild(Contact())
         break
     }
   }

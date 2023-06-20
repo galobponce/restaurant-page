@@ -10,16 +10,20 @@ html {
 }
 
 body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("./images/background.jpg");
+}
+
+#content {
+  height: 100vh;
+
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-
-  height: 100vh;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("./images/background.jpg");
+  justify-content: flex-start;
 }
 
 /* End General */
