@@ -1,3 +1,7 @@
+import { pizzas } from "./pizzas"
+
+import { MenuItem } from "./MenuItem"
+
 import "./Menu.css"
 
 const Menu = () => {
@@ -5,9 +9,9 @@ const Menu = () => {
   menu.classList.add("menu")
   menu.id = "menu"
 
-  menu.innerHTML = `
-    <h2>Menu</h2>
-  `
+  pizzas.map((pizza) => {
+    menu.appendChild(MenuItem(pizza))
+  })
 
   return menu
 }

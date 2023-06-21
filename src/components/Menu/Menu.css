@@ -1,3 +1,30 @@
 .menu {
-  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+
+  width: 60%;
+
+  padding: 2em;
+
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  border-radius: 1em;
+  border: 1px solid #444;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    width: 90%;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    gap: 1em;
+  }
 }
