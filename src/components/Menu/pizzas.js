@@ -1,7 +1,7 @@
 export const pizzas = [
   {
-    name: "Salciccia",
-    image_name: "salciccia",
+    name: "Salsiccia",
+    image_name: "salsiccia",
     description:
       "Tomato sauce, Mozarella, Tomato, Homemade sausage, Garlic, Basil",
   },
